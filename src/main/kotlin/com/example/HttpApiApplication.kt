@@ -1,5 +1,6 @@
 package com.example
 
+import com.example.httpapi.routes.registerCustomerRoutes
 import io.ktor.application.Application
 import io.ktor.application.install
 import io.ktor.features.ContentNegotiation
@@ -12,4 +13,5 @@ fun Application.module() {
     install(ContentNegotiation) {
         json()
     }
+    registerCustomerRoutes()
 }
