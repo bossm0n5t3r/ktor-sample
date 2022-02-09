@@ -19,3 +19,4 @@
     - Run another `ChatClientKt` at client `Intellij`
     - Chat each `ChatClientKt`
   - Check [#2](https://github.com/bossm0n5t3r/ktor-sample/pull/2)
+- [Creating an interactive website](https://ktor.io/docs/creating-interactive-website.html)
